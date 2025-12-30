@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 // استيراد المتحكم الذي أنشأتيه
-use App\Http\Controllers\Api\LabController; 
+use App\Http\Controllers\Api\LabController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +16,7 @@ Route::get('/labs', [LabController::class, 'index']);
 
 Route::post('/labs', [LabController::class, 'store']);
 Route::delete('/labs/{id}', [LabController::class, 'destroy']);
+
+
+use App\Http\Controllers\Api\BookingController;
+Route::post('/bookings', [BookingController::class, 'store']);
