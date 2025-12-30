@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Laboratory 101",
+      "capacity": 30,
+      "type": "Laboratory",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "name": "Computer Lab A",
+      "capacity": 25,
+      "type": "Computer Lab",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "name": "Physics Lab",
+      "capacity": 20,
+      "type": "Laboratory",
+      "status": "Under Maintenance"
+    },
+    {
+      "id": 4,
+      "name": "Chemistry Lab",
+      "capacity": 15,
+      "type": "Laboratory",
+      "status": "available"
+    }
+  ]
+}
